@@ -1,0 +1,150 @@
+/* General Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: white; /* Light background for readability */
+    color: #133A1B; /* Dark green for text */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styling */
+header {
+    background: #011B10; /* Dark Green */
+    color: #E4DEAE; /* Tusk for text */
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #133A1B;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Navigation */
+nav {
+    background: #133A1B; /* Zucchini */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #E4DEAE; /* Tusk for links */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background: #011B10; /* Dark Green on hover */
+}
+
+/* Sections */
+main section {
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: #B7BF96; /* Green Mist */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #011B10; /* Dark Green */
+}
+
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: lightgrey; /* Tusk */
+    padding: 20px;
+    border: 2px solid #133A1B; /* Zucchini */
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #133A1B; /* Zucchini */
+    color: #E4DEAE; /* Tusk */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.project-card a:hover {
+    background: #011B10; /* Dark Green */
+}
+
+/* Contact */
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    margin: 10px 0;
+}
+
+.contact-section ul li a {
+    color: #133A1B; /* Zucchini */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #011B10; /* Dark Green */
+    color: #E4DEAE; /* Tusk */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
